@@ -1,32 +1,26 @@
-import Footer from "../components/footer/Footer"
-import ListarProdutos from "../components/produtos/listarprodutos/ListarProdutos"
-
-
 function Home() {
     return (
         <>
-            <div className="flex justify-center bg-sky-900">
-                <div className='grid grid-cols-2 text-white container'>
-                    <div className="flex flex-col justify-center items-center gap-4 py-4">
-                        <h2 className='font-bold text-5xl'>
-                            Seja bem vindo(a)!
-                        </h2>
-                        <p className='text-xl'>Aqui você encontra os remédios mais baratos.</p>
-                        <p className='text-xl'>Aproveite nossas promoções!!</p>
+            <div className="bg-cyan-200 flex justify-center">
+                <div className="container grid grid-cols-2 text-black">
+                    <div className="flex flex-col gap-4 items-center justify-center py-4">
+                        <h2 className="text-5xl font-bold">Seja bem vinde!</h2>
+                        <p className="text-2xl">Aqui você encontra Medicamentos e Cosméticos!</p>
+                        <div className="flex justify-around gap-4">
+                            <button className="rounded text-indigo-900 border-indigo-900 border-solid border-2 py-2 px-4">
+                                Novo Produto
+                            </button>
+                        </div>
                     </div>
-
                     <div className="flex justify-center">
                         <img
-                            src="images\remedios.png"
+                            src="https://ik.imagekit.io/vzr6ryejm/farmacia/home.png?updatedAt=1725625779667"
                             alt="Imagem Página Home"
-                            className='w-2/3'
+                            className="w-2/3"
                         />
                     </div>
                 </div>
             </div>
-            <ListarProdutos />
-            <Footer />
-            
         </>
     )
 }
