@@ -19,8 +19,8 @@ function Home() {
                     </div>
                     <div className="flex justify-center">
                         <img
-                            src="images\Design sem nome.gif"
-                            alt="Imagem Página Home"
+                            src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTh6ZzlxejBvdjk4dHJxMzhiN2JseXM5bm8zbHF1NDRkM2JqZ2lzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WGDYDUYVGMwqiwt1z2/giphy.gif"
+                            alt="Animação"
                             className="w4/3"
                         />
                     </div>

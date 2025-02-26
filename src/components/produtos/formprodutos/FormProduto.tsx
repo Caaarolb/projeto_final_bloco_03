@@ -140,7 +140,7 @@ function FormProduto() {
 						placeholder="Insira aqui o nome do Produto"
 						name="nome"
 						required
-						className="p-2 bg-white border-2 rounded border-slate-700"
+						className="p-2 bg-white border-1 rounded border-slate-700"
 					/>
 				</div>
 
@@ -159,7 +159,7 @@ function FormProduto() {
 						placeholder="Adicione aqui o preço do Produto"
 						name="preco"
 						required
-						className="p-2 bg-white border-2 rounded border-slate-700"
+						className="p-2 bg-white border-1 rounded border-slate-700"
 					/>
 				</div>
 
@@ -177,7 +177,7 @@ function FormProduto() {
 						placeholder="Adicione aqui a foto do Produto"
 						name="foto"
 						required
-						className="p-2 bg-white border-2 rounded border-slate-700"
+						className="p-2 bg-white border-1 rounded border-slate-700"
 					/>
 				</div>
 
@@ -186,7 +186,7 @@ function FormProduto() {
 					<select
 						name="categoria"
 						id="categoria"
-						className="p-2 bg-white border-2 rounded border-slate-700"
+						className="p-2 bg-white border-1 rounded border-slate-700"
 						onChange={(e) =>
 							buscarCategoriaPorId(
 								e.currentTarget.value
@@ -209,7 +209,7 @@ function FormProduto() {
 				<button
 					type="submit"
 					disabled={carregandoCategoria}
-					className="rounded text-slate-100 bg-indigo-400 hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center"
+					className="rounded text-slate-100 bg-red-600 hover:bg-red-800 w-1/2 py-2 mx-auto flex justify-center"
 				>
 					{isLoading ? (
 						<RotatingLines

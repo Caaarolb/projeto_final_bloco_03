@@ -14,7 +14,7 @@ function CardCategorias({ categoria }: CardCategoriaProps) {
             
             <p className='p-8 text-3xl bg-white h-full'>{categoria.nome}</p>
             
-            <div className="bg-gradient-to-b from-indigo-800 to-indigo-600 flex justify-center items-center gap-2 p-2">
+            <div className="bg-gradient-to-b from-red-600 to-red-600 flex justify-center items-center gap-2 p-2">
                 
                 <Link to={`/editarcategoria/${categoria.id}`}>
                     <Pencil size={28} color="white" className="mr-1 hover:fill-cyan-400" />

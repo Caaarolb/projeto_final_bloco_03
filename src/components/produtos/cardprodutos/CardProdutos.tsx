@@ -16,7 +16,7 @@ function CardProdutos({ produto}: CardProdutoProps) {
       <div className="flex justify-end items-end pt-2 pr-2">
 
         <Link to={`/editarproduto/${produto.id}`}>
-          <Pencil size={24} className="mr-1 hover:fill-cyan-600" />
+          <Pencil size={24} className="mr-1 hover:fill-red-600" />
         </Link>
 
         <Link to={`/deletarproduto/${produto.id}`}>
