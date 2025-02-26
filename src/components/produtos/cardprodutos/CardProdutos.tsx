@@ -42,7 +42,7 @@ function CardProdutos({ produto}: CardProdutoProps) {
         </div>
       </div>
       <div className="flex flex-wrap">
-        <button className='w-full text-white bg-blue-500 hover:bg-blue-800 flex items-center justify-center py-2'>
+        <button className='w-full text-white bg-red-600 hover:bg-red-600 flex items-center justify-center py-2'>
           Comprar
         </button>
       </div>

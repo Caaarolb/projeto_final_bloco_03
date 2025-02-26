@@ -71,8 +71,8 @@ function FormCategoria() {
   }
 
   return (
-    <div className="container flex flex-col items-center justify-center mx-auto">
-      <h1 className="text-4xl text-center my-8">
+    <div className="container min-h-screen flex flex-col items-center justify-center mx-auto -translate-y-15">
+      <h1 className="text-4xl text-center my-4">
         {id === undefined ? 'Cadastrar Categoria' : 'Editar Categoria'}
       </h1>
 
@@ -83,15 +83,15 @@ function FormCategoria() {
             type="text"
             placeholder="nome da categoria"
             name="nome"
-            className="border-2 border-slate-700 rounded p-2"
+            className="border-1 border-slate-700 rounded p-2 text-stone-950"
             required
             value={categoria.nome}
             onChange={atualizarEstado}
           />
         </div>
         <button
-          className="rounded text-slate-100 bg-indigo-400 
-          hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center"
+          className="rounded text-slate-100 bg-red-600 
+          hover:bg-red-950 w-1/2 py-2 mx-auto flex justify-center"
           type="submit"
         >
           {isLoading ? (
